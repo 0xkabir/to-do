@@ -1,0 +1,22 @@
+<!doctype html>
+<html class="bg-gray-400">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>to-do list</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="w-3/5 mx-auto flex justify-evenly mt-12">
+    <input type="text" id="task-item" class="w-4/5 px-4 py-2 rounded">
+    <button class="bg-emerald-700 px-5 py-2 rounded text-white font-medium" onclick="addTask()">Add Task</button>
+  </div>
+  <div class="w-2/5 mx-auto">
+    <h1 class="text-center text-4xl font-medium my-10">Task List</h1>
+    <div id="display-field">
+
+    </div>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>
