@@ -24,7 +24,7 @@ const displayTasks = () => {
             </div>
             <div>
                 <button class="bg-green-500 px-5 py-2 mx-2 rounded text-white font-medium" onclick="updateTask(${taskId})">Update</button>
-                <button class="bg-red-500 px-5 py-2 mx-3 rounded text-white font-medium" onclick="deleteTask(${taskId})">Delete</button>
+                <button class="bg-red-500 px-5 py-2 mx-2 rounded text-white font-medium" onclick="deleteTask(${taskId})">Delete</button>
             </div>
         </div>
         `;
